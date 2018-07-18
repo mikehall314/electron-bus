@@ -1,0 +1,35 @@
+{
+  "name": "electron-bus",
+  "version": "0.1.0",
+  "description": "A message bus for Electron applications",
+  "main": "ElectronBus.js",
+  "homepage": "https://github.com/mikehall314/electron-bus",
+  "engines": {
+    "electron": "*"
+  },
+  "files": [
+    "ElectronBus.js",
+    "MessageEnvelope.js"
+  ],
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint *.js"
+  },
+  "repository": "mikehall314/electron-bus",
+  "keywords": [
+    "electron",
+    "rpc",
+    "ipc",
+    "message bus"
+  ],
+  "author": "Mike Hall <mikehall314@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  },
+  "peerDependencies": {
+    "electron": "*"
+  },
+  "dependencies": {
+    "lodash.clonedeep": "^4.5.0"
+  }
+}
